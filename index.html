@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">Prova Front-end</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container-cards"> <div class="card">
+        <h1>Card 1</h1>
+        <p>Conteúdo de exemplo para o card.</p>
+        <button>Clique</button>
+    </div>
+
+    <div class="card">
+        <h1>Card 2</h1>
+        <p>Conteúdo de exemplo para o card.</p>
+        <button>Clique</button>
+    </div>
+
+    <div class="card">
+        <h1>Card 3</h1>
+        <p>Conteúdo de exemplo para o card.</p>
+        <button>Clique</button>
+    </div>
+</div>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Digite seu nome">
+        <button id="addButton" onclick="addTask()">Enviar</button>
+    </div>
+
+    <div id="lista-nomes"></div>
+
+    <footer class="footer-bar">
+        <p>Aluno: Ryan | Prova prática de Front-end</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
